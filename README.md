@@ -1,5 +1,5 @@
 # gstin_validation
-This gem validates validates Indian gstin numbers based on the check digit. The last character in a gstin number is the checksum digit. Checksum digit is generated based on the first 14 characters of the gstin number.
+This gem validates Indian gstin numbers based on the check digit. The last character in a gstin number is the checksum digit. Checksum digit is generated based on the first 14 characters of the gstin number.
 
 # Installing
 gem install gstin_validation
