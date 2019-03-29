@@ -1,5 +1,5 @@
 class GstinValidation
-  def self.validate_gstin_pattern(number)
+  def self.validate_gstin_number(number)
     factor = 2
     sum = 0
     mod_chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"

@@ -10,5 +10,5 @@ gem 'gstin_validation', '~> 1.0'
 # Usage
 require 'gstin_validation'
 
-GstinValidation.validate_gstin_pattern('27AECPK8399G1Z1') #=> true
-GstinValidation.validate_gstin_pattern('27AECPKT312G1Z0') #=> false
+GstinValidation.validate_gstin_number('27AECPK8399G1Z1') #=> true
+GstinValidation.validate_gstin_number('27AECPKT312G1Z0') #=> false
