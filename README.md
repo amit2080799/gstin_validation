@@ -5,7 +5,7 @@ This gem validates Indian gstin numbers based on the check digit. The last chara
 gem install gstin_validation
 
 # Gemfile
-gem 'gstin_validation', '~> 1.0'
+gem 'gstin_validation', '~> 1.0.2'
 
 # Usage
 require 'gstin_validation'
