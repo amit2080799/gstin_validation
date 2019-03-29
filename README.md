@@ -12,7 +12,3 @@ require 'gstin_validation'
 
 GstinValidation.validate_gstin_pattern('27AECPK8399G1Z1') #=> true
 GstinValidation.validate_gstin_pattern('27AECPKT312G1Z0') #=> false
-
-
-# Docs - github link
-https://github.com/amit2080799/gstin_validation
